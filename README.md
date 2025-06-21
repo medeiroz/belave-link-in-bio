@@ -4,6 +4,7 @@ Este é um projeto Link in Bio desenvolvido com [Next.js](https://nextjs.org) pa
 
 ## Preview
 [Belavê Bio v1](https://bio.belave.com.br/)
+
 [Belavê Bio v2](https://bio.belave.com.br/v2)
 
 ## Sobre o Projeto
