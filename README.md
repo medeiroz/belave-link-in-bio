@@ -24,7 +24,7 @@ O objetivo deste projeto é fornecer uma página centralizada com todos os princ
 - Horário de atendimento
 - Informações institucionais e de contato
 - Layout responsivo e personalizável
-- Dados centralizados em `src/data/ProfileData.js` para fácil reuso
+- Dados centralizados em `src/data/ProfileData.js`
 
 ## Como rodar localmente
 
