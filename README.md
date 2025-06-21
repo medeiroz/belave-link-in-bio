@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Belavê Link in Bio
 
-## Getting Started
+Este é um projeto Link in Bio desenvolvido com [Next.js](https://nextjs.org) para a clínica Belavê - Estética Avançada, localizada em Campinas, SP.
 
-First, run the development server:
+## Preview
+[Belavê Bio v1](https://bio.belave.com.br/)
+[Belavê Bio v2](https://bio.belave.com.br/v2)
+
+## Sobre o Projeto
+
+O objetivo deste projeto é fornecer uma página centralizada com todos os principais canais de contato, redes sociais, serviços e informações da Belavê, com design moderno, responsivo e fácil de personalizar.
+
+- **Tecnologia:** Next.js (App Router)
+- **Estilização:** Tailwind CSS
+- **Ícones:** Lucide React
+- **Fonte:** Geist (via next/font)
+- **SEO:** Otimização com metadados dinâmicos
+
+## Funcionalidades
+
+- Links rápidos para WhatsApp, Instagram, site oficial e localização
+- Destaque para serviços oferecidos
+- Horário de atendimento
+- Informações institucionais e de contato
+- Layout responsivo e personalizável
+- Dados centralizados em `src/data/ProfileData.js` para fácil reuso
+
+## Como rodar localmente
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Abra [http://localhost:3000](http://localhost:3000) no navegador para ver o resultado.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estrutura dos Dados
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Todas as informações customizáveis estão em `src/data/ProfileData.js`. Basta editar esse arquivo para adaptar para outras empresas ou perfis.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deploy
 
-## Learn More
+O deploy pode ser feito facilmente na [Vercel](https://vercel.com/) ou em qualquer serviço que suporte Next.js.
 
-To learn more about Next.js, take a look at the following resources:
+## Créditos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Desenvolvido por Belavê com ❤️ usando Next.js, Tailwind CSS e Lucide React.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+> Este projeto é open source e pode ser adaptado para outros negócios de estética ou profissionais autônomos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Imagens
+![Belavê Bio v1](/screenshots/v1.jpeg)
+![Belavê Bio v2](/screenshots/v2.jpeg)
