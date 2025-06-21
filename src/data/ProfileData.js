@@ -5,7 +5,7 @@ const ProfileData = {
   slogan: "Estética Avançada",
   tagline: "Sua beleza em mãos experientes",
   description:
-    "Cuidamos da sua pele com ciência, carinho e estética avançada. Transformamos autoestima através de técnicas modernas e atendimento acolhedor.",
+    "Cuidamos da sua pele com ciência, carinho e estética avançada. Transformamos autoestima através de técnicas modernas e atendimento acolhedor",
   location: {
     language: "pt-BR",
     country: "Brasil",
