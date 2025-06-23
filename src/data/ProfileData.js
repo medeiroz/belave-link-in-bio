@@ -3,7 +3,7 @@ const year = new Date().getFullYear();
 const ProfileData = { 
   name: "Belavê",
   slogan: "Estética Avançada",
-  tagline: "Sua beleza em mãos experientes",
+  tagline: "Sua beleza em mãos experientes!",
   description:
     "Cuidamos da sua pele com ciência, carinho e estética avançada. Transformamos autoestima através de técnicas modernas e atendimento acolhedor",
   location: {
